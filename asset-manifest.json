@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Daniells/static/css/main.d33dd536.css",
-    "main.js": "/Daniells/static/js/main.452e4abb.js",
+    "main.js": "/Daniells/static/js/main.61d38011.js",
     "static/media/video.mp4": "/Daniells/static/media/video.0ac5c1944a4c3bcab74b.mp4",
     "static/media/00018.webp": "/Daniells/static/media/00018.51ac18d0783eee146ba8.webp",
     "static/media/00029.webp": "/Daniells/static/media/00029.a1d1e815fca0e9be56a4.webp",
@@ -73,12 +73,16 @@
     "static/media/heart-photo-d.png": "/Daniells/static/media/heart-photo-d.2cfb0f0a67d590304407.png",
     "static/media/00057.webp": "/Daniells/static/media/00057.704b4f67b27f48c13a00.webp",
     "static/media/00059.webp": "/Daniells/static/media/00059.9ac1f43fa283f8dda473.webp",
+    "static/media/ANPC_image1.webp": "/Daniells/static/media/ANPC_image1.8c3a6df527f0c5f75118.webp",
+    "static/media/ANPC_image2.webp": "/Daniells/static/media/ANPC_image2.b9da90a7c235c9e62756.webp",
+    "static/media/instagram.svg": "/Daniells/static/media/instagram.73cf778b432f2dd3c683ccabc377a7ad.svg",
     "index.html": "/Daniells/index.html",
+    "static/media/facebook.svg": "/Daniells/static/media/facebook.9e37c7e69062d2e42a8938bda276aa4b.svg",
     "main.d33dd536.css.map": "/Daniells/static/css/main.d33dd536.css.map",
-    "main.452e4abb.js.map": "/Daniells/static/js/main.452e4abb.js.map"
+    "main.61d38011.js.map": "/Daniells/static/js/main.61d38011.js.map"
   },
   "entrypoints": [
     "static/css/main.d33dd536.css",
-    "static/js/main.452e4abb.js"
+    "static/js/main.61d38011.js"
   ]
 }
