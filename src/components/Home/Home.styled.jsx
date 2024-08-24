@@ -62,7 +62,7 @@ export const MottoSection = styled.section`
 `;
 
 export const MottoSectionSpan = styled.span`
-  color: red;
+  color: #ff3383;
 `;
 
 export const ImageWrapper = styled.div`

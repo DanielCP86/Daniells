@@ -7,6 +7,8 @@ import {
   ProductInfo,
   ProductTitle,
   ProductDescription,
+  Highlight,
+  StyledLink,
 } from './ProductDetails.styled';
 
 const ProductDetails = () => {
@@ -22,7 +24,22 @@ const ProductDetails = () => {
       <ProductImage src={product.image} alt={product.title} />
       <ProductInfo>
         <ProductTitle>{product.title}</ProductTitle>
-        <ProductDescription>{product.description}</ProductDescription>
+        <ProductDescription>
+          Alege compoziția preferată pentru tortul tău!
+          <br />
+          <br />
+          La cofetăria noastră, ne dorim ca fiecare tort să fie la fel de unic
+          ca și tine. De aceea, îți oferim posibilitatea de a-ți personaliza
+          tortul, alegând compoziția preferată din selecția noastră de rețete
+          delicioase. Explorează{' '}
+          <StyledLink to={`/fillings`}>
+            pagina noastră de compoziții
+          </StyledLink>{' '}
+          și combină ingredientele care te inspiră cel mai mult. Fie că preferi
+          un gust clasic sau vrei să încerci ceva nou și surprinzător, suntem
+          aici să transformăm fiecare ocazie într-un moment{' '}
+          <Highlight>dulce de neuitat</Highlight>!
+        </ProductDescription>
       </ProductInfo>
     </ProductDetailsWrapper>
   );

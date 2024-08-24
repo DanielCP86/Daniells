@@ -39,7 +39,7 @@ export const AboutUsTitle = styled.h1`
   font-size: 2em;
   text-align: center;
   margin-bottom: 20px;
-  color: red;
+  color: #ff3383;
 
   @media (min-width: 768px) {
     text-align: left;

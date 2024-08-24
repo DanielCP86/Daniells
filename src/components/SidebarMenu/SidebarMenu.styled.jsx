@@ -30,7 +30,7 @@ export const SidebarNavItem = styled.div`
 
   &:focus,
   &:hover {
-    color: red;
+    color: #ff3383;
   }
 `;
 

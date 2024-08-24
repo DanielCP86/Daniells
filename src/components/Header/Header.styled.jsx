@@ -41,7 +41,7 @@ export const NavItem = styled.div`
     font-size: 18px;
     font-weight: bold;
     &:hover {
-      color: red;
+      color: #ff3383;
     }
   }
 
@@ -67,7 +67,7 @@ export const SubMenu = styled.div`
     font-size: 18px;
     font-weight: bold;
     &:hover {
-      color: red;
+      color: #ff3383;
       background-color: #f1f1f1;
     }
   }
