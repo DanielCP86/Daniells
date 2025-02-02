@@ -1,6 +1,7 @@
 import React from 'react';
-import { ReactComponent as FacebookIcon } from '../../assets/icons/facebook.svg'; // Înlocuiește cu path-ul către SVG-ul tău
-import { ReactComponent as InstagramIcon } from '../../assets/icons/instagram.svg'; // Înlocuiește cu path-ul către SVG-ul tău
+import { ReactComponent as FacebookIcon } from '../../assets/icons/facebook.svg';
+import { ReactComponent as InstagramIcon } from '../../assets/icons/instagram.svg';
+import { ReactComponent as TikTokIcon } from '../../assets/icons/tiktok.svg';
 import {
   FooterContainer,
   FooterContent,
@@ -26,6 +27,9 @@ const Footer = () => {
             </a>
             <a href="https://www.instagram.com/cofetaria.daniells/">
               <InstagramIcon />
+            </a>
+            <a href="https://www.tiktok.com/@cofetaria.daniells/">
+              <TikTokIcon />
             </a>
           </SocialIcons>
           <FooterCopy>&copy; Daniell's. Toate drepturile rezervate.</FooterCopy>

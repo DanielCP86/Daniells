@@ -9,6 +9,7 @@ import CandyBar from 'components/CandyBar/CandyBar';
 import Products from 'components/Products/Products';
 import ProductDetails from 'components/ProductDetails/ProductDetails';
 import Contact from 'components/Contact/Contact';
+import Fillings from 'components/Fillings/Fillings';
 import { ContainerWrapper } from 'styles/Container.styled';
 
 export const App = () => {
@@ -24,7 +25,7 @@ export const App = () => {
           <Route path="/products/:type" element={<Products />} />
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/candy-bar" element={<CandyBar />} />
-          {/* <Route path="/fillings" element={<Fillings />} /> */}
+          <Route path="/fillings" element={<Fillings />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

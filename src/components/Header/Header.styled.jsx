@@ -15,7 +15,7 @@ export const HeaderWrapper = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
 `;
 
 export const Logo = styled.div`
